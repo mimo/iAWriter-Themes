@@ -1,0 +1,151 @@
+
+body {
+	background: #323131;
+	color: #d2c0c0;
+	padding: 3% 5% 3% 5%;
+	margin-top: 50px;
+	margin-left:auto;
+	margin-right:auto;
+	border : solid 2px #403e3e;
+	font-size: 22px;
+	font-family: Cochin;
+	width: 75%;
+}
+
+h1 {
+	font-size: 2.2em;
+	color: #9eb66a;
+	margin-block-start: 0.6em;
+	margin-block-end: 2em;
+	/*
+	padding-right: 16%;
+	border-bottom: solid 2px #403e3e;
+	*/
+	font-weight: bold;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.6em;
+	color: #6ab67b;
+	margin-block: 1.8em;
+	margin-block-end: 1em;
+	border-bottom: solid 2px #696262;
+	padding-bottom: 0.2em;
+	text-align: center;
+}
+
+h3  {
+	font-size: 1.4em;
+	color: #6ab1b6;
+	margin-block: 1.6em;
+	margin-block-end: 1em;
+	padding-left: 3%;
+	border-bottom: dashed 1px #696262;
+	padding-bottom: 0.1em;
+}
+
+h4  {
+	font-size: 1.2em;
+	color: #6a81b6;
+	margin-block: 1.4em;
+	margin-block-end: 1em;
+	font-weight: 1000;
+	padding-left: 1%;
+	/*
+	text-decoration: underline;
+	*/
+}
+
+h5  {
+	/*
+	text-decoration: underline;
+	*/
+	font-size: 1.0em;
+	color: #996ab6;
+	margin-block: 1.2em;
+	margin-block-end: 1em;
+	font-weight: 800;
+	padding-left: 1%;
+}
+
+h6  {
+	/*
+	font-style: italic;
+	*/
+	font-style: italic;
+	font-size: 1.0em;
+	color: #b66a88;
+	margin-block: 1em;
+	font-weight: 600;
+	padding-left: 1%;
+}
+
+p {
+	text-indent: 3%;
+}
+
+li {
+	margin-top: 0.1em;
+	font-size: 1.05em;
+}
+
+li p {
+	text-indent: 0;
+	margin: 0.5em 0 0.5em 0px;
+}
+
+li ul {
+	margin-top: 0.3em;
+}
+
+li::marker {
+	color: #8f8b8b;
+}
+
+a {
+	color: #b43157;
+	text-underline-offset: 0.2em;
+}
+
+a:visited {
+	color: #3089b4;
+}
+
+em {
+	font-style: normal;
+	text-decoration: underline;
+	text-underline-offset: 0.2em;
+}
+
+br {
+	color: #696262;
+	border-color: #696262;
+}
+
+pre {
+	background: #d2c0c025;
+	border-bottom: solid #403e3e 2px;
+	border-right: solid #403e3e 3px;
+	width: 90%;
+	padding: 0.8em 2% 0.8em 2%;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+}
+
+code {
+	font-family: Monaco;
+	font-size: 0.7em;
+	color : #d2c0c0;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+.task-list-item-checkbox {
+	margin: 0 0.4em 0 0;
+	color: #3089b4;
+}
